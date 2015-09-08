@@ -7,7 +7,7 @@
 # http://en.wikipedia.org/wiki/L-system for more information.
 # This script requires the python-pygame dependency.
 #
-# I don't know jack about licensing so this is public domain.
+# Licensed under the MIT License.
 
 import pygame, sys, math, os, random
 from pygame.locals import *
