@@ -16,7 +16,6 @@ os.environ['SDL_VIDEO_CENTERED'] ="1" ## Makes the window centered on-screen
 
 class Main: ## Wrapper for the main method
     def __init__(self):
-        pygame.mixer.pre_init(44100, -16, 2, 1024)
         pygame.init()
 
         self.screen = pygame.display.set_mode((800,600), SWSURFACE)
